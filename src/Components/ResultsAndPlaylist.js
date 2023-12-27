@@ -11,7 +11,7 @@ function ResultsAndPlaylist(props) {
     return (
         <div className={styles.ResultsPlaylistOuter}>
             <SearchResults tracks={props.tracks}/>
-            <Tracklist songList={props.songList} token={props.token}/>   
+            <Tracklist songList={props.songList} token={props.token} clearPlaylist={props.clearPlaylist}/>   
         </div>
     );
 }
