@@ -8,7 +8,7 @@ function AccessToken(props) {
     const REDIRECT_URI = "http://alexladin13.github.io/jammming";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
-    const SCOPE = "playlist-modify-private,playlist-modify-public,playlist-read-private";
+    const SCOPE = "playlist-modify-private";
 
     const [modal, setModal] = useState(false);
     const [token, setToken] = useState();
