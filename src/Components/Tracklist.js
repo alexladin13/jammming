@@ -9,13 +9,13 @@ function Tracklist(props) {
         setUserInput(e.target.value);
     }
 
-    const handleSubmit = () => { 
+    async const handleSubmit = () => { 
 
         let uriList = [];
         props.songList.forEach(function(item) { 
             uriList.push(item.props.song.uri);
         });
-
+        console.log(props.token);
         const headers = { Authorization: `Bearer ${props.token}`}
         let userID = '';
         return fetch('https://api.spotify.com/v1/me', { headers: headers})
