@@ -10,7 +10,6 @@ function Tracklist(props) {
     }
 
     const handleSubmit = () => { 
-
         let uriList = [];
         props.songList.forEach(function(item) { 
             uriList.push(item.props.song.uri);
