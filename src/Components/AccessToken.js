@@ -8,6 +8,7 @@ function AccessToken(props) {
     const REDIRECT_URI = "http://alexladin13.github.io/jammming";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
+    const SCOPE = "playlist-modify-private,playlist-modify-public,playlist-read-private";
 
     const [modal, setModal] = useState(false);
     const [token, setToken] = useState();
@@ -41,7 +42,7 @@ function AccessToken(props) {
               <div onClick={toggleModal} className={styles.overlay}></div>
               <div className={styles.modalContent}>
                 <h2 className={styles.h2}>Spotify Log In</h2>
-                <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>
+                <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=${SCOPE}`}>
                     <button className={styles.button} onClick={handleLogIn}>
                         Log In
                     </button>
