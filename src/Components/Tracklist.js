@@ -9,8 +9,9 @@ function Tracklist(props) {
         setUserInput(e.target.value);
     }
 
-    async const handleSubmit = () => { 
-
+    const handleSubmit = () => { 
+        console.log(props.token);
+        console.log("HEREEEE");
         let uriList = [];
         props.songList.forEach(function(item) { 
             uriList.push(item.props.song.uri);
