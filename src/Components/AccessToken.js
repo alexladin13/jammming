@@ -5,7 +5,7 @@ import { FaRegUserCircle, FaTimes } from 'react-icons/fa';
 function AccessToken(props) { 
 
     const CLIENT_ID = "5157da9071204f82aeee80ad4b088573";
-    const REDIRECT_URI = "http://localhost:3000/?";
+    const REDIRECT_URI = "http://alexladin13.github.io/jammming";
     const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
     const RESPONSE_TYPE = "token";
 
