@@ -36,8 +36,9 @@ function Tracklist(props) {
                         });
                     });
         });
+        console.log('hereeee');
         props.clearPlaylist();
-        props.setUserInput('');
+        setUserInput('');
     }
 
     return ( 
