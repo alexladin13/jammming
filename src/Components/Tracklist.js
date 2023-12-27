@@ -29,16 +29,17 @@ function Tracklist(props) {
                     .then((response) => response.json())
                     .then((jsonResponse) => { 
                         const playlistID = jsonResponse.id;
+                        console.log('hereeee');
+                        props.clearPlaylist();
+                        setUserInput('');
                         return fetch(`https://api.spotify.com/v1/playlists/${playlistID}/tracks`, {
                             headers: headers,
                             method: "POST",
                             body: JSON.stringify({ uris : uriList}),
-                        });
+                        })
                     });
         });
-        console.log('hereeee');
-        props.clearPlaylist();
-        setUserInput('');
+
     }
 
     return ( 
