@@ -9,7 +9,7 @@ function Tracklist(props) {
         setUserInput(e.target.value);
     }
 
-    async const handleSubmit = () => { 
+    const handleSubmit = () => { 
 
         let uriList = [];
         props.songList.forEach(function(item) { 
