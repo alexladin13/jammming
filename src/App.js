@@ -22,7 +22,7 @@ function App() {
   const handleTokenCallback = (token) => { 
     setToken(token);
     const hash = window.location.hash;
-    token = hash.substring(1).split("&").find(elem => elem.startsWith("access_token")).split("=")[1];
+    token = hash.substring(1).split("&").find(elem => elem.startsWith("code")).split("=")[1];
   }
 
   const handleSearchCallback = async (userInput) => { 
