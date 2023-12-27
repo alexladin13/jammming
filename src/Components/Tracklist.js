@@ -36,8 +36,8 @@ function Tracklist(props) {
                         });
                     });
         });
-        console.log(userInput);
-        console.log(uriList);
+        props.clearPlaylist();
+        props.setUserInput('');
     }
 
     return ( 

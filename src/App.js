@@ -144,12 +144,19 @@ function App() {
       }
   }
 
+  const clearPlaylist = () => { 
+
+    localSongList = [];
+    setSongList([]);
+
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <Banner tokenCallback={handleTokenCallback}/>
         <SearchBar searchCallback={handleSearchCallback}/>
-        <ResultsAndPlaylist key={listTracks} tracks={listTracks} songList={songList} token={token}/>
+        <ResultsAndPlaylist key={listTracks} tracks={listTracks} songList={songList} token={token} clearPlaylist={clearPlaylist}/>
       </header>
     </div>
   );
