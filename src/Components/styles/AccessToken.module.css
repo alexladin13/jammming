@@ -18,7 +18,7 @@
 
 .FaKey { 
     color: white;
-    font-size: 4vmin;
+    font-size: 5vmin;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -128,10 +128,10 @@ body.activeModal {
     background-color: blueviolet;
 }
 
-@media only screen and (min-width: 810px) {
+@media only screen and (max-width: 900px) {
     
     .FaKey { 
-        font-size: 18px;
+        font-size: 4vmin;
         margin: auto;
         text-align: center;
     }
@@ -141,9 +141,9 @@ body.activeModal {
     }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 550px) { 
     .FaKey { 
-        font-size: 13px;
+        font-size: 3vmin;
         margin: auto;
         text-align: center;
     }
