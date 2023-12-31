@@ -128,7 +128,7 @@ body.activeModal {
     background-color: blueviolet;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1250px) {
     
     .FaKey { 
         font-size: 4vmin;
