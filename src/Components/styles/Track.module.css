@@ -45,7 +45,7 @@
     font-size: 3vmin;
     font-weight: bold;
     margin-left: auto;
-    margin-right: 9px;
+    margin-right: auto;
 }
 
 .button:hover { 
@@ -53,5 +53,9 @@
     cursor: pointer;
     border-radius: 100%;
     margin-left: auto;
-    margin-right: 9px;
+    margin-right: auto;
+    height: 40px;
+    width: 40px;
+    border: 0px solid black;
+    font-size: 3vmin;
 }
