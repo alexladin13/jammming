@@ -18,9 +18,10 @@
 
 .FaKey { 
     color: white;
-    font-size: 5vmin;
+    font-size: 3vmin;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 body.activeModal {
@@ -125,4 +126,24 @@ body.activeModal {
 
 .button:active { 
     background-color: blueviolet;
+}
+
+@media only screen and (max-width: 650px) { 
+    .FaKey { 
+        font-size: 100px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    .FaKey { 
+        font-size: 13px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button { 
+        font-size: 3vmin;
+    }
 }
