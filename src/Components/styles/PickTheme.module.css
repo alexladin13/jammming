@@ -1,0 +1,167 @@
+.accessButton { 
+    height: 85%;
+    width: 5%;
+    border-radius: 7px;
+    border: 0px solid black;
+    margin: auto 0px auto 3px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.accessButton:hover { 
+    background-color: var(--primary-4);;
+    cursor: pointer;
+}
+
+.accessButton:active { 
+    background-color: var(--secondary);
+}
+
+.FaKey { 
+    color: white;
+    font-size: 5vmin;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body.activeModal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.overlay {
+    position: absolute;
+    background: var(--primary);
+}
+.modalContent {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background-color: var(--tertiary);
+    padding: 14px 28px;
+    border-radius: 20px;
+    max-width: 600px;
+    min-width: 300px;
+    z-index: 1001;
+}
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 0px solid black;
+    background-color: var(--primary);
+}
+
+.closeModal:hover { 
+    background-color: var(--primary-4);;
+    cursor: pointer;
+}
+
+.closeModal:active { 
+    background-color: var(--secondary);
+}
+
+.FaWindowClose { 
+    color: white;
+}
+
+.h2 { 
+    color: white;
+    padding: 17px;
+}
+
+.input { 
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vmin;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-left: 4%;
+    box-shadow: 5px 5px 10px 2px var(--primary-2);;
+}
+
+.form { 
+    padding: 20px;
+    height: 50px;
+}
+
+.button { 
+    width: 55%;
+    height: 47px;
+    border-radius: 30px;
+    background-color: var(--primary);
+    border: 0px solid black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4vmin;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px 10px 2px var(--primary-2);;
+}
+
+.button:hover { 
+    cursor: pointer;
+    background-color: var(--primary-4);;
+}
+
+.button:active { 
+    background-color: var(--secondary);
+}
+
+@media only screen and (max-width: 1250px) {
+    
+    .FaKey { 
+        font-size: 4vmin;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button { 
+        font-size: 2vmin;
+    }
+}
+
+@media only screen and (max-width: 550px) { 
+    .FaKey { 
+        font-size: 3vmin;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button { 
+        font-size: 2.5vmin;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    
+    .FaKey { 
+        font-size: 4vmin;
+        margin: auto;
+        text-align: center;
+    }
+
+    .button { 
+        font-size: 2vmin;
+    }
+  }
