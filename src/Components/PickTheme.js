@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import styles from './styles/PickTheme.module.css';
-import { FaRegUserCircle, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
+import { LuPaintbrush } from "react-icons/lu";
 
 function PickTheme(props) { 
 
@@ -27,7 +28,7 @@ function PickTheme(props) {
     return (
         <> 
         <button onClick={toggleModal} className={styles.accessButton}>
-            <FaRegUserCircle className={styles.FaKey}/>
+            <LuPaintbrush className={styles.FaKey}/>
         </button>
         {modal && (
             <div className={styles.modal}>
