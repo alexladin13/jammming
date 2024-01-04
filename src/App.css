@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-image: linear-gradient(0deg, rgb(76, 33, 117) 0%, #cd64e0 100%);
+  background-image: linear-gradient(0deg, rgb(76, 33, 117) 0%, var(--tertiary) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,8 +26,13 @@
 }
 
 :root {
-  --primary: #rgba(0, 0, 0, 0.6);
-  --secondary: blueviolet;
+  --primary: rgba(0, 0, 0, 0.6);
+  --primary-8:  rgba(0, 0, 0, 0.8);
+  --primary-4: rgba(0, 0, 0, 0.4);
+  --primary-2: rgba(0, 0, 0, 0.2);
+  --secondary: green;
+  --tertiary: #cd64e0;
+  --quaterny: rgba(138,43,226,0.6);
 }
 
 /* Chrome, Edge, and Safari */

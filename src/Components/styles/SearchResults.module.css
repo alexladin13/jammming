@@ -5,10 +5,10 @@
     top: 25%;
     width: 62%;
     height: 470px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--primary);
     border-radius: 25px;
     margin-bottom: 2%;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 10px 2px var(--primary-2);;
 }
 
 .h2 { 

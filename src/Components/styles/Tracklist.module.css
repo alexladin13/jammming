@@ -3,9 +3,9 @@
     top: 25%;
     width: 30%;
     height: 470px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: var(--primary);
     border-radius: 25px;
-    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 10px 2px var(--primary-2);;
 }
 
 .innerContainer { 
@@ -34,7 +34,7 @@
     width: 65%;
     height: 12%;
     color: white;
-    background-color: blueviolet;
+    background-color: var(--secondary);
     border-radius: 25px;
     border: 0px solid black;
     font-weight: bold;
@@ -46,12 +46,12 @@
 
 .button:hover { 
     cursor: pointer;
-    background-color: rgba(138,43,226,0.6);
+    background-color: var(--quaterny);
 }
 
 .button:active { 
-    background-color: blueviolet;
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: var(--secondary);
+    border: 1px solid var(--primary-8);;
 }
 
 .ul { 
