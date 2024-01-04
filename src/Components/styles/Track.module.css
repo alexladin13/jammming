@@ -46,9 +46,10 @@
     font-weight: bold;
     margin-left: auto;
     margin-right: 9px;
+    text-align: center;
 }
 
 .button:hover { 
-    background-color: blueviolet;
+    background-color: var(--secondary);
     cursor: pointer;
 }
