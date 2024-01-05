@@ -36,7 +36,7 @@ function PickTheme(props) {
               <div className={styles.modalContent}>
                 <h2 className={styles.h2}>Choose your theme</h2>
                 <ul>
-                    <button className={styles.themeOne}>
+                    <button className={styles.themeButton styles.redBackground}>
 
                     </button>
                 </ul>

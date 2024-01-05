@@ -119,10 +119,35 @@ body.activeModal {
     box-shadow: 5px 5px 10px 2px var(--primary-2);;
 }
 
-.themeOne { 
+.themeButton { 
     width: 50px;
     height: 50px;
+    border: 0px solid black;
+    border-radius: 25px;
+}
+
+.blueBackground { 
     background-color: blue;
+}
+
+.violetBackground { 
+    background-color: violet;
+}
+
+.redBackground { 
+    background-color: red;
+}
+
+.orangeBackground { 
+    background-color: orange;
+}
+
+.yellowBackground { 
+    background-color: yellow;
+}
+
+.greenBackground { 
+    background-color: green;
 }
 
 .button:hover { 
