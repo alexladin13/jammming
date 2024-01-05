@@ -138,7 +138,7 @@ body.activeModal {
 }
 
 .themeButton:hover { 
-    border: 1px solid var(--secondary);
+    border: 2px solid black;
 }
 
 .blueBackground { 
