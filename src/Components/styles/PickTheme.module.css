@@ -119,6 +119,12 @@ body.activeModal {
     box-shadow: 5px 5px 10px 2px var(--primary-2);;
 }
 
+.themeOne { 
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
 .button:hover { 
     cursor: pointer;
     background-color: var(--primary-4);;
