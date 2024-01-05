@@ -35,7 +35,7 @@ function PickTheme(props) {
               <div onClick={toggleModal} className={styles.overlay}></div>
               <div className={styles.modalContent}>
                 <h2 className={styles.h2}>Choose your theme</h2>
-                <ul>
+                <ul className={styles.themeList}>
                     <button className={`${styles.themeButton} ${styles.redBackground}`}></button>
                     <button className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
                     <button className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
