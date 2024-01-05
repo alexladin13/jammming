@@ -120,9 +120,11 @@ body.activeModal {
 }
 
 .themeList { 
-    padding: 0px;
+    padding: 3px;
     background-color: whitesmoke;
     border-radius: 3px;
+    align-items: center;
+    justify-content: center;
 }
 
 .themeButton { 
@@ -132,6 +134,7 @@ body.activeModal {
     border-radius: 25%;
     margin: 2px 2px;
     align-items: center;
+    justify-content: center;
 }
 
 .themeButton:hover { 
