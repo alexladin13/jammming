@@ -26,7 +26,30 @@ function PickTheme(props) {
     }
 
     const handleThemeChange = (color) => {
-        console.log("HERE");
+
+        switch(color){ 
+            case "red":
+                console.log("red");
+                break;
+            case "orange":
+                console.log("orange");
+                break;
+            case "yellow":
+                console.log("yellow");
+                break;
+            case "green":
+                console.log("green");
+                break;
+            case "violet":
+                console.log("violet");
+                break;
+            case "blue":
+                console.log("blue");
+                break;
+            default:
+                console.log("Error");
+        }
+
         console.log(color)
     }
 
@@ -42,11 +65,11 @@ function PickTheme(props) {
                 <h2 className={styles.h2}>Choose your theme</h2>
                 <ul className={styles.themeList}>
                     <button onClick={() => handleThemeChange("red")} className={`${styles.themeButton} ${styles.redBackground}`}></button>
-                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
-                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
-                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.greenBackground}`}></button>
-                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.violetBackground}`}></button>
-                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.blueBackground}`}></button>
+                    <button onClick={() => handleThemeChange("orange")} className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
+                    <button onClick={() => handleThemeChange("yellow")} className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
+                    <button onClick={() => handleThemeChange("green")} className={`${styles.themeButton} ${styles.greenBackground}`}></button>
+                    <button onClick={() => handleThemeChange("violet")} className={`${styles.themeButton} ${styles.violetBackground}`}></button>
+                    <button onClick={() => handleThemeChange("blue")} className={`${styles.themeButton} ${styles.blueBackground}`}></button>
                 </ul>
                 <button className={styles.closeModal} onClick={toggleModal}>
                   <FaTimes className={styles.FaWindowClose}/>
