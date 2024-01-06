@@ -40,7 +40,7 @@ function PickTheme(props) {
               <div className={styles.modalContent}>
                 <h2 className={styles.h2}>Choose your theme</h2>
                 <ul className={styles.themeList}>
-                    <button onClick={() => this.handleThemeChange("red")} className={`${styles.themeButton} ${styles.redBackground}`}></button>
+                    <button onClick={() => handleThemeChange("red")} className={`${styles.themeButton} ${styles.redBackground}`}></button>
                     <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
                     <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
                     <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.greenBackground}`}></button>
