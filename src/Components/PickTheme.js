@@ -29,11 +29,12 @@ function PickTheme(props) {
 
         switch(color){ 
             case "red":
-                console.log("red");
-                document.documentElement.style.setProperty('--red', getComputedStyle(document.documentElement).getPropertyValue('--secondary'))
+                console.log("red 2");
+                document.documentElement.style.cssText = "--secondary: red";
                 break;
             case "orange":
                 console.log("orange");
+                document.documentElement.style.cssText = "--secondary: orange";
                 break;
             case "yellow":
                 console.log("yellow");
