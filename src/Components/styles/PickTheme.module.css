@@ -122,7 +122,7 @@ body.activeModal {
 .themeList { 
     padding: 3px;
     background-color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 6px;
     align-items: center;
     justify-content: center;
 }
