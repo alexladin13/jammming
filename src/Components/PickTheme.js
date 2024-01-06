@@ -29,8 +29,7 @@ function PickTheme(props) {
 
         switch(color){ 
             case "red":
-                document.documentElement.style.cssText = "--secondary: red";
-                document.documentElement.style.cssText = "--tertiary: #f75c5c";
+                document.documentElement.style.cssText = "--secondary: red --tertiary: #f75c5c";
                 break;
             case "orange":
                 document.documentElement.style.cssText = "--secondary: orange";
