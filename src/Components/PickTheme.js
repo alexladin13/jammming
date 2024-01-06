@@ -30,6 +30,7 @@ function PickTheme(props) {
         switch(color){ 
             case "red":
                 console.log("red");
+                document.documentElement.style.setProperty('--red', getComputedStyle(document.documentElement).getPropertyValue('--primary'))
                 break;
             case "orange":
                 console.log("orange");
@@ -50,7 +51,6 @@ function PickTheme(props) {
                 console.log("Error");
         }
 
-        console.log(color)
     }
 
     return (
