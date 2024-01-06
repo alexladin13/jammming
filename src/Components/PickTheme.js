@@ -25,8 +25,9 @@ function PickTheme(props) {
         toggleModal();
     }
 
-    const handleThemeChange = () => {
-        console.log("HERE")
+    const handleThemeChange = (color) => {
+        console.log("HERE");
+        console.log(color)
     }
 
     return (
