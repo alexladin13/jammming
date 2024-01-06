@@ -145,7 +145,6 @@ function App() {
   }
 
   const clearPlaylist = () => { 
-    console.log('xxxxx');
     localSongList = [];
     setSongList([]);
 

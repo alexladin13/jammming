@@ -29,27 +29,22 @@ function PickTheme(props) {
 
         switch(color){ 
             case "red":
-                document.documentElement.style.cssText = "--secondary: red; --tertiary: #f75c5c";
+                document.documentElement.style.cssText = "--secondary: red; --tertiary: #f75c5c; --quaterny: rgba(74, 10, 1, 0.6); --quinary: rgb(74, 10, 1)";
                 break;
             case "orange":
-                document.documentElement.style.cssText = "--secondary: orange";
-                document.documentElement.style.cssText = "--tertiary: #f5a96c";
+                document.documentElement.style.cssText = "--secondary: orange; --tertiary: #f5a96c; --quaterny: rgba(156, 85, 5, 0.6); --quinary: rgb(156, 85, 5)";
                 break;
             case "yellow":
-                document.documentElement.style.cssText = "--secondary: yellow";
-                document.documentElement.style.cssText = "--tertiary: #f5f387";
+                document.documentElement.style.cssText = "--secondary: yellow; --tertiary: #f5f387; --quaterny: rgba(138, 124, 1, 0.6); --quinary: rgb(138, 124, 1)";
                 break;
             case "green":
-                document.documentElement.style.cssText = "--secondary: green";
-                document.documentElement.style.cssText = "--tertiary: #6df78d";
+                document.documentElement.style.cssText = "--secondary: green; --tertiary: #6df78d; --quaterny: rgba(31, 94, 2, 0.6); --quinary: rgb(31, 94, 2)";
                 break;
             case "violet":
-                document.documentElement.style.cssText = "--secondary: violet";
-                document.documentElement.style.cssText = "--tertiary: #cd64e0";
+                document.documentElement.style.cssText = "--secondary: blueviolet; --tertiary: #cd64e0; --quaterny: rgba(107, 25, 2, 0.6); --quinary: rgb(107, 25, 2)";
                 break;
             case "blue":
-                document.documentElement.style.cssText = "--secondary: blue";
-                document.documentElement.style.cssText = "--tertiary: #5291f7";
+                document.documentElement.style.cssText = "--secondary: blue; --tertiary: #5291f7; --quaterny: rgba(1, 10, 74, 0.6); --quinary: rgb(1, 10, 74)";
                 break;
             default:
                 console.log("Error");
