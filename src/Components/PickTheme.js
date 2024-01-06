@@ -29,24 +29,28 @@ function PickTheme(props) {
 
         switch(color){ 
             case "red":
-                console.log("red 2");
                 document.documentElement.style.cssText = "--secondary: red";
+                document.documentElement.style.cssText = "--tertiary: #f75c5c";
                 break;
             case "orange":
-                console.log("orange");
                 document.documentElement.style.cssText = "--secondary: orange";
+                document.documentElement.style.cssText = "--tertiary: #f5a96c";
                 break;
             case "yellow":
-                console.log("yellow");
+                document.documentElement.style.cssText = "--secondary: yellow";
+                document.documentElement.style.cssText = "--tertiary: #f5f387";
                 break;
             case "green":
-                console.log("green");
+                document.documentElement.style.cssText = "--secondary: green";
+                document.documentElement.style.cssText = "--tertiary: #6df78d";
                 break;
             case "violet":
-                console.log("violet");
+                document.documentElement.style.cssText = "--secondary: violet";
+                document.documentElement.style.cssText = "--tertiary: #cd64e0";
                 break;
             case "blue":
-                console.log("blue");
+                document.documentElement.style.cssText = "--secondary: blue";
+                document.documentElement.style.cssText = "--tertiary: #5291f7";
                 break;
             default:
                 console.log("Error");
