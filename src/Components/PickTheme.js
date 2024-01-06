@@ -25,8 +25,8 @@ function PickTheme(props) {
         toggleModal();
     }
 
-    const handleThemeChange = (color) => {
-        console.log(color)
+    const handleThemeChange = () => {
+        console.log("HERE")
     }
 
     return (
@@ -40,12 +40,12 @@ function PickTheme(props) {
               <div className={styles.modalContent}>
                 <h2 className={styles.h2}>Choose your theme</h2>
                 <ul className={styles.themeList}>
-                    <button onClick={handleThemeChange("red")} className={`${styles.themeButton} ${styles.redBackground}`}></button>
-                    <button onClick={handleThemeChange("orange")} className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
-                    <button onClick={handleThemeChange("yellow")} className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
-                    <button onClick={handleThemeChange("green")} className={`${styles.themeButton} ${styles.greenBackground}`}></button>
-                    <button onClick={handleThemeChange("violet")} className={`${styles.themeButton} ${styles.violetBackground}`}></button>
-                    <button onClick={handleThemeChange("blue")} className={`${styles.themeButton} ${styles.blueBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.redBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.orangeBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.yellowBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.greenBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.violetBackground}`}></button>
+                    <button onClick={handleThemeChange} className={`${styles.themeButton} ${styles.blueBackground}`}></button>
                 </ul>
                 <button className={styles.closeModal} onClick={toggleModal}>
                   <FaTimes className={styles.FaWindowClose}/>
