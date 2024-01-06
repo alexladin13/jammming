@@ -41,7 +41,7 @@ function PickTheme(props) {
                 document.documentElement.style.cssText = "--secondary: green; --tertiary: #6df78d; --quaterny: rgba(31, 94, 2, 0.6); --quinary: rgb(31, 94, 2)";
                 break;
             case "violet":
-                document.documentElement.style.cssText = "--secondary: blueviolet; --tertiary: #cd64e0; --quaterny: rgba(107, 25, 2, 0.6); --quinary: rgb(107, 25, 2)";
+                document.documentElement.style.cssText = "--secondary: blueviolet; --tertiary: #cd64e0; --quaterny: rgba(76, 33, 117, 0.6); --quinary: rgb(76, 33, 117)";
                 break;
             case "blue":
                 document.documentElement.style.cssText = "--secondary: blue; --tertiary: #5291f7; --quaterny: rgba(1, 10, 74, 0.6); --quinary: rgb(1, 10, 74)";
